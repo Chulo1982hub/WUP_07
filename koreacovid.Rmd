@@ -77,10 +77,12 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
-
-
+The Chi-squared test p-value is 0.0012 wich is lesser than 0.05 which means we can effective reject the null hypothesis so there is a difference between death rate based on sex.
+Overall, the results indicate a statistically significant association between the variables, with an estimated odds ratio of 2.3 and a 95% confidence interval ranging from 1.4 to 3.9.
 
 
 ## Conclusions
+
+The original questions is if there is a difference in korea data death based on sex.  The low p-values obtained from both tests (0.001 for Pearson's Chi-squared test and 0.0009 for Fisher's Exact Test) indicate that the association is statistically significant.
+Therefore, we reject the null hypothesis of no association between sex and result. Instead, we conclude that there is a significant association between the two variables, with females and males showing different outcomes. 
 
